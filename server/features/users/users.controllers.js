@@ -1,4 +1,4 @@
-import services from "./users.service.js";
+import services from "./users.services.js";
 
 const getAllUsers = async (req, res) => {
   const users = await services.getAll();
